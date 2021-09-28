@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height:100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#logo_img{
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+#header{
+    background-image: url(./hed.PNG);
+    background-size: cover;
+    height: 100vh;
+}
+
+#nav_links{
+    margin-right: 20px;
+    margin-top: -100px;
+}
+
+#navlink li {
+    display: inline;
+    margin: 10px;
+    list-style: none;
+    float: right;
+}
+
+#navlink li a{
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#act_link{
+    background-color: rgb(255,205,0);
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+
+#navlink li a:hover{
+    border: 1px solid black;
+    color: cornflowerblue;
+}
+
+#hero_txt{
+    color: white;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+#line_one{
+    width: 60%;
+    float: right;
+    margin-right: 20px;
+    height: 2px;
+}
+
+#head_hover{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#hover_link{
+    margin-top: 70px;
+}
+
+#hover_link li {
+    display: inline;
+    margin: 20px;
+    position: relative;
+}
+
+#hover_link li a {
+    text-decoration: none;
+    color: white;
+}
